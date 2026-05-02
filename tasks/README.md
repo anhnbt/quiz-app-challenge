@@ -48,6 +48,7 @@ Xây dựng một nền tảng thi trắc nghiệm trực tuyến toàn diện, 
 | **US24** | **Cập nhật câu hỏi** | P1 | 📝 To Do | - Khóa chỉnh sửa nếu câu hỏi đã nằm trong một bài thi. |
 | **US26** | **Xem DS câu hỏi** | P1 | 📝 To Do | - Hiển thị đáp án đúng để GV đối chiếu.<br>- Phân trang 5 items/trang. |
 | **US28** | **Tìm kiếm/Lọc câu hỏi** | P1 | 📝 To Do | - Lọc theo: Độ khó, Loại câu hỏi, Danh mục. |
+| **US52** | **Import câu hỏi từ Excel** | P1 | 📝 To Do | - Hỗ trợ file .xlsx/.csv theo template.<br>- Tự động map các cột: Tiêu đề, Đáp án, Đúng/Sai, Độ khó. |
 
 ### 🎯 Epic 3: Bài thi & Thi trực tuyến (Exam Engine)
 *Xử lý quy trình thi và tính năng Real-time.*
@@ -55,7 +56,10 @@ Xây dựng một nền tảng thi trắc nghiệm trực tuyến toàn diện, 
 | ID | User Story | Priority | Trạng thái | Acceptance Criteria (AC) |
 | :--- | :--- | :---: | :---: | :--- |
 | **US29** | **Thiết lập bài thi** | P0 | 📝 To Do | - Tên (Unique), Số lượng câu, Loại đề, Thời gian làm bài, Điểm đạt. |
+| **US53** | **Cấu hình Trộn đề (Shuffle)** | P1 | 📝 To Do | - Option: Trộn thứ tự câu hỏi.<br>- Option: Trộn thứ tự các đáp án trong mỗi câu. |
+| **US54** | **Phát hiện gian lận (Tab Switch)** | P2 | 📝 To Do | - Ghi nhận số lần học viên rời khỏi tab bài thi.<br>- Tự động nộp bài hoặc cảnh báo nếu vượt quá số lần cho phép. |
 | **US32** | **Xem lịch sử làm bài (GV)** | P1 | 📝 To Do | - Thống kê: Danh sách học viên, Thời gian nộp, Điểm, Số câu đúng/sai. |
+| **US55** | **Báo cáo phân tích câu hỏi** | P2 | 📝 To Do | - GV xem được tỉ lệ chọn từng đáp án của học viên.<br>- Hệ thống đánh dấu các câu hỏi có tỉ lệ sai > 70%. |
 | **US33** | **Dashboard học viên** | P0 | 📝 To Do | - Hiển thị bài thi theo danh mục.<br>- Mục "Hot nhất": Dựa trên số lượt tham gia. |
 | **US36** | **Thực hiện bài thi** | P0 | 📝 To Do | - Giao diện: Countdown timer, Nav câu hỏi, Nút Nộp bài. |
 | **US37** | **Kết quả tức thì** | P0 | 📝 To Do | - Hiển thị Điểm, Đúng/Sai ngay sau khi nộp. |
