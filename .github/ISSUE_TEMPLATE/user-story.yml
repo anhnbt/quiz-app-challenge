@@ -1,0 +1,31 @@
+name: "📝 User Story"
+description: "Sử dụng template này để mô tả tính năng mới theo định dạng User Story."
+title: "[US-XX] Tên tính năng"
+labels: ["user-story", "enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## 👤 User Story
+        Là một **[loại người dùng]**, tôi muốn **[thực hiện hành động]** để **[nhận được giá trị/lợi ích]**.
+
+  - type: textarea
+    id: acceptance-criteria
+    attributes:
+      label: "✅ Acceptance Criteria (AC)"
+      description: "Các tiêu chí cần đạt được để tính năng được coi là hoàn thành."
+      placeholder: "- [ ] Tiêu chí 1\n- [ ] Tiêu chí 2"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: "🚩 Priority"
+      options:
+        - P0 (Critical)
+        - P1 (High)
+        - P2 (Medium)
+        - P3 (Low)
+    validations:
+      required: true
